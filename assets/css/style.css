@@ -1,0 +1,35 @@
+*{
+    outline: 0px dashed green;
+}
+#main-container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+}
+    #sub-container{
+        width: 300px;
+        height: 120px;
+        margin: auto;
+        font-weight: bold;
+        background-color: aquamarine;
+        padding: 15px;
+        display: none;
+    }
+    table{
+        margin: auto;
+        border: 1px solid #2B1B17;
+        width: 100%;
+    }
+        table thead td{
+            background-color: #2B1B17;
+            text-align: center;
+            color: white;
+        }
+        table tbody td{
+            padding: 5px 15px;
+        }
+        table tfoot td{
+            padding: 10px;
+            text-align: center;
+        }
